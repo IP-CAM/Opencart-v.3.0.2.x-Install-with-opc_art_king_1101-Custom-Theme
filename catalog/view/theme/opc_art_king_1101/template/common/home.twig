@@ -1,0 +1,28 @@
+{{ header }}
+<div id="wrapper">
+	<div class="ttv-full-layout ttvcms-full-layout">
+		<div id="content-wrapper">
+			<div id="main">
+				{{ column_left }}
+				{% if column_left and column_right %}
+				{% set class = 'col-sm-6' %}
+				{% elseif column_left or column_right %}
+				{% set class = 'col-sm-9' %}
+				{% else %}
+				{% set class = 'col-sm-12' %}
+				{% endif %}
+				<div id="content" class="page-home {{ class }}">
+					{{ content_top }}
+					<div>
+						<div>
+							{{ content_bottom }}
+						</div>
+					</div>
+				</div>
+				{{ column_right }}
+			</div>
+		</div>
+	</div>
+</div>
+{{ footer_top }}
+{{ footer }}
