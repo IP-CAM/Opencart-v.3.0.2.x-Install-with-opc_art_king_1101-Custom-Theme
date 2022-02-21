@@ -1,2 +1,2 @@
 # Opencart-E-Commerce-Website
-❮img src="ss/Ek%20Açıklama%202021-05-23%20120128.png" ❯
+❮img src="ss/1.png" ❯
