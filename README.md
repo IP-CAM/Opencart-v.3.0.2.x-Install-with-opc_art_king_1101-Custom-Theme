@@ -1,5 +1,4 @@
 # Opencart-E-Commerce-Website
-❮img src="ss/1.png" width="100" ❯
 ![](ss/1.png)
 ![](ss/2.png)
 ![](ss/3.png)
